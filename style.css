@@ -1,0 +1,227 @@
+body {
+  background-color: #f6f6f9;
+  font-family: "Muli", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: white;
+  width: 5em;
+  z-index: 1;
+}
+
+.spans {
+  display: none;
+  padding-left: 1em;
+  vertical-align: top;
+}
+
+.sideLinks > .nav-item > a {
+  text-decoration: none;
+  color: rgb(149, 164, 194);
+}
+
+.sidebar:hover .spans {
+  display: inline-block;
+}
+
+.sidebar:hover {
+  width: auto;
+}
+
+.sideBottomLink {
+  display: none;
+  /* vertical-align: bottom !important; */
+}
+
+.sidebar:hover .sideBottomLink {
+  display: flex;
+}
+
+.sidebar:hover .navbar-brand {
+  background: transparent url(./images/guvi-logo.png) no-repeat 17px 8px;
+  width: auto;
+}
+
+.horizontal-bar {
+  background-color: white;
+}
+
+.navbar-brand {
+  background: transparent url(./images/guvi-logo-icon.png) no-repeat 17px 8px;
+  height: 53px;
+  text-indent: -9999px;
+  width: 4rem;
+  display: block;
+  border-bottom: 1px solid #f4eaea;
+}
+
+.nav-link > i {
+  vertical-align: middle;
+}
+
+.icons {
+  font-family: "Material Icons";
+  color: rgb(149, 164, 194);
+  font-style: normal;
+  font-size: 1.25em;
+  margin-right: 5px;
+}
+
+.top-icon {
+  color: black;
+  font-size: 1.5em;
+}
+
+.icon {
+  background: url(./images/sprite-icons.png);
+  background-position: unset;
+  display: inline-block;
+  height: 23px;
+  width: 26px;
+}
+
+.icon-codekata {
+  background-position: -50px -50px;
+}
+
+.icon-microarc {
+  background-position: -50px -100px;
+}
+
+.icon-projectBoard {
+  background-position: -150px 0px;
+}
+
+.icon-leaderBoard {
+  background-position: -150px -50px;
+}
+
+.icon-reward {
+  background-position: -150px -100px;
+}
+
+.icon-geek {
+  background-position: 0px 0px;
+}
+
+.navSpan {
+  vertical-align: bottom;
+}
+
+.br-right {
+  border-right: 1px solid #f4eaea;
+  color: #4c5a74;
+}
+
+.top-icons {
+  margin-left: auto;
+}
+
+.topNav {
+  width: 100% !important;
+}
+
+.avatarTop {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.changePass {
+  color: violet;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.75em;
+}
+
+.topSearchField {
+  border-radius: 18px;
+}
+
+.topSearchButton {
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
+}
+
+.topSearchButton:hover i {
+  color: black;
+}
+
+.mainTabs > li > a {
+  color: #95a4c2;
+}
+
+.nav-pills .nav-link.active,
+.nav-link-show > .nav-link {
+  background-color: transparent;
+  border-bottom: 3px solid #14e885;
+  color: #132241;
+}
+
+.card,
+.card-header {
+  background-color: white;
+  border: none;
+  margin-bottom: 1.5em;
+  font-size: 95%;
+}
+.card-body>h5{
+  font-weight: 700;
+}
+
+.course-banner{
+  height: 100px;
+  width: 100%;
+  background: url(./images/sprite-courses.webp) 0 0, url(./images/sprite-courses.webp) 0 0;
+}
+
+.deep-learning{
+  background-position: 0 -2640px, 100% -2640px;
+}
+.c-programming{
+  background-position: 0 -120px, 100% -120px;
+}
+.c-plus-programming{
+  background-position: 0 -240px, 100% -240px;
+}
+.html-css{
+  background-position: 0 -360px, 100% -360px;
+}
+.java{
+  background-position: 0 -480px, 100% -480px;
+}
+.java8{
+  background-position: 0 -600px, 100% -600px;
+}
+
+.card-nav> .nav-item{
+  color: #95a4c2;
+  padding: 0 .50em;
+  border-color: #ADBECF  !important;
+}
+.enroll-btn-div{
+  margin-top: 1em;
+}
+.enroll-btn{
+  width: 40%;
+  background-color: #14e885;
+}
+.price{
+  color: blueviolet;
+}
+.gray-text{
+ color: #95a4c2;
+}
+.rating >i{
+  color: #ffdf0c;
+  font-size: 1.50em;
+}
+.rating>span{
+  vertical-align: super;
+}

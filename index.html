@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,600,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guvi | Learn to code in your native language</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../fontawesome-free-5.11.2-web/css/all.css">
+    <script src="../../Bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="sidebar vh-100  p-2 shadow-sm">
+            <a href="./index.html" class="navbar-brand">Guvi</a>
+            <ul class="nav flex-column p-2 sideLinks">
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icons">home</i>
+                        <span class="spans">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icons">video_library</i>
+                        <span class="spans">Courses</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icon icon-codekata"></i>
+                        <span class="spans">Codekata</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icon icon-microarc"></i>
+                        <span class="spans">Microarc</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icon icon-projectBoard"></i>
+                        <span class="spans">Project Board</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icon icon-leaderBoard"></i>
+                        <span class="spans">Leader Board</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icon icon-reward"></i>
+                        <span class="spans">Rewards</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link mb-1">
+                        <i class="icons">work</i>
+                        <span class="spans">Jobs</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav flex-column p-2 pt-4 sideLinks mt-5">
+                <li class="nav-item sideBottomLink">
+                    <a href="#" class="nav-link mb-1">Zen Class</a>
+                </li>
+                <li class="nav-item sideBottomLink">
+                    <a href="#" class="nav-link mb-1">HYRE</a>
+                </li>
+                <li class="nav-item sideBottomLink">
+                    <a href="#" class="nav-link mb-1">Our Story</a>
+                </li>
+            </ul>
+        </div>
+        <div class=" topNav">
+            <nav class="navbar navbar-expand-lg py-0 horizontal-bar w-100">
+                <ul class="navbar nav top-icons">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-0 mt-1 p-0 mx-1 px-2 br-right">
+                            <i class="icon icon-geek"></i>
+                            <span class="navSpan">4655</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link mt-1 br-right">
+                            <span><strong>Rank: </strong>3002</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-1 p-0 mx-1 px-2">
+                            <i class="icons top-icon ">notifications</i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle m-1 p-0 mx-1 px-2">
+                            <img src="./images/guviAvatarImage.jpg" class="avatarTop" alt="avatar">
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item changePass">Change Password</a>
+                                <a href="#" class="dropdown-item">Sign Out</a>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-11 col-lg-11 col-xl-11 offset-md-1 offset-lg-1 offset-xl-1 mainContainer">
+                <div class="row mt-4">
+                    <div class="col-md-2 col-lg-2 col-xl-2 pt-2 topHeading">
+                        <h1>Courses</h1>
+                    </div>
+                    <div
+                        class="col-md-4 col-lg-4 col-xl-4 offset-md-6 offset-lg-6 offset-xl-6 ml-auto pt-2 topSearchBar">
+                        <input type="search" name="topSearch" class="topSearchField form-control"
+                            placeholder="What do you want to learn today?">
+                        <button name="topSearch" class="topSearchButton btn"><i class="icons">search</i></button>
+                    </div>
+                </div>
+                <div class="row border-bottom mx-1" aria-label="mainTabsDiv">
+                    <ul class="nav nav-pills mainTabs" role="tablist">
+                        <li class="nav-item mainTabs">
+                            <a href="#course-library" data-toggle="pill"
+                                class="nav-link px-0 mr-3 rounded-0 active">Course Library</a>
+                        </li>
+                        <li class="nav-item mainTabs">
+                            <a href="#free-courses" data-toggle="pill" class="nav-link rounded-0 ">Free Courses</a>
+                        </li>
+                        <li class="nav-item mainTabs">
+                            <a href="#my-courses" data-toggle="pill" class="nav-link rounded-0 ">My Courses</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane container-fluid mx-0 px-0 active" id="course-library">
+                        <div class="row mt-3">
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="deepLearningDiv">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner deep-learning"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Deep Learning</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star star_half</i>
+                                            <span class="font-weight-bold">&nbsp;4.5 &nbsp;</span><span
+                                                class="graytext">(3648)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 13 Courses</li>
+                                            <li class="nav-item border-left">English</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn" onclick='func("deepLearningDiv")'>Enroll</button>
+                                        </div>
+                                        <div class="d-flex justify-content-end mt-2">
+                                            <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span>
+                                            </p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="gray-text">Course Details</span>
+                                            <p>For Others &nbsp;<span class="price">&#8377;5000/-</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="cProgrammDiv">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner c-programming"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">C Programming</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star_border star_border</i>
+                                            <span class="font-weight-bold">&nbsp;3 &nbsp;</span><span
+                                                class="graytext">(2114)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 13 Courses</li>
+                                            <li class="nav-item border-left">English</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn" onclick="func('cProgrammDiv')">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                           <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                        </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;Free/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="cPlusProgramDiv">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner c-plus-programming"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">C Plus Plus Programming</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star_half star_border</i>
+                                            <span class="font-weight-bold">&nbsp;3.5 &nbsp;</span><span
+                                                class="graytext">(5821)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 13 Courses</li>
+                                            <li class="nav-item border-left">Tamil</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn" onclick="func('cPlusProgramDiv')">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                           <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                        </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;999/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="htmlDiv">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner html-css"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">HTML & CSS</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star star_border</i>
+                                            <span class="font-weight-bold">&nbsp;4 &nbsp;</span><span
+                                                class="graytext">(7654)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 15 Courses</li>
+                                            <li class="nav-item border-left">Tamil</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn" onclick="func('htmlDiv')">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                           <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                        </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;Free/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="javaDiv">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner java"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Java</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star star_half</i>
+                                            <span class="font-weight-bold">&nbsp;4.5 &nbsp;</span><span
+                                                class="graytext">(4561)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 15 Courses</li>
+                                            <li class="nav-item border-left">English</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn" onclick="func('javaDiv')">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                               <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                            </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;1999/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="java8Div">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner java8"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Java 8</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star star_half</i>
+                                            <span class="font-weight-bold">&nbsp;4.5 &nbsp;</span><span
+                                                class="graytext">(8465)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 21 Courses</li>
+                                            <li class="nav-item border-left">English</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn" onclick="func('java8Div')">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                           <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                        </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;1999/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane container-fluid mx-0 px-0" id="free-courses">
+                        <div class="row mt-3">
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="c-programm-div">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner c-programming"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">C Programming</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star_border star_border</i>
+                                            <span class="font-weight-bold">&nbsp;3 &nbsp;</span><span
+                                                class="graytext">(2114)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 13 Courses</li>
+                                            <li class="nav-item border-left">English</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                                   <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                                </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;Free/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-xl-4" id="html-div">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="course-banner html-css"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">HTML & CSS</h5>
+                                        <div class="rating">
+                                            <i class="icons">star star star star star_border</i>
+                                            <span class="font-weight-bold">&nbsp;4 &nbsp;</span><span
+                                                class="graytext">(7654)</span>
+                                        </div>
+                                        <ul class="nav card-nav">
+                                            <li class="nav-item pl-0">Bundle of 15 Courses</li>
+                                            <li class="nav-item border-left">Tamil</li>
+                                        </ul>
+                                        <div class="d-flex enroll-btn-div justify-content-end">
+                                            <button class="btn enroll-btn">Enroll</button>
+                                        </div>
+                                        <!-- <div class="d-flex justify-content-end mt-2">
+                                               <p class="mb-0">For Students &nbsp;<span class="price">&#8377;1000/-</span></p> 
+                                            </div> -->
+                                        <div class="d-flex justify-content-between mt-2">
+                                            <span class="gray-text">Course Details</span>
+                                            <span class="price">&#8377;Free/-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container-fluid mx-0 px-0" id="my-courses">
+                        <div class="row mt-3" id="my-course-content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
